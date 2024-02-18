@@ -27,13 +27,6 @@ const Data = [
       Address: "London",
       Review: "Absolutely perfect! The cake was a delightful taste and a stunning edible art piece, highly recommended for any special occasion!"
     },
-    // {
-    //   id: 4,
-    //   img_src: img1,
-    //   Name: "Sara Jones",
-    //   Profession: "Fitness Trainer",
-    //   Review: "Great taste! Had doubts about a 'healthier' cake, but it surprised me. Lots of protein, guilt-free and satisfied my sweet craving."
-    // },
   ];
 
   
@@ -50,10 +43,6 @@ const Testimonial = (props) => {
           breakpoint: { max: 3000, min: 1051 },
           items: 3,
         },
-        // tablet: {
-        //   breakpoint: { max: 1024, min: 464 },
-        //   items: 2,
-        // },
         tablet: {
           breakpoint: { max: 1050, min: 768 },
           items: 2,
@@ -82,7 +71,8 @@ const Testimonial = (props) => {
       // customDot={<CustomDot />}
       responsive={responsive}
       infinite={true}
-      autoPlay={props.deviceType !== "mobile" ? true : false}
+      // autoPlay={props.deviceType !== "mobile" ? true : false}
+      autoPlay={true}
       autoPlaySpeed={5000}
       keyBoardControl={true}
       // customTransition="all 0.5"
@@ -108,10 +98,6 @@ const Testimonial = (props) => {
         }
       </Carousel>
       </div>
-      {/* </div> */}
-      {/* </div> */}
-      {/* </div> */}
-
     </div>
   )
 }

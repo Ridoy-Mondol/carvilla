@@ -56,7 +56,8 @@ const Brands = (props) => {
     //   showDots={true}
       responsive={responsive}
       infinite={true}
-      autoPlay={props.deviceType !== "mobile" ? true : false}
+      // autoPlay={props.deviceType !== "mobile" ? true : false}
+      autoPlay={true}
       autoPlaySpeed={5000}
       keyBoardControl={true}
       transitionDuration={500}

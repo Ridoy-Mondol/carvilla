@@ -12,8 +12,9 @@ const Home = () => {
           GET YOUR DESIRED CAR IN RESONABLE PRICE
         </h1>
         <span className='home-para'>
-        Find your perfect car at an unbeatable price with our vast selection. 
+        Find your perfect car at an unbeatable price with our vast selection.<span className='hide-mobile'> 
         From compact city cars to spacious SUVs, discover the right fit for your needs and budget
+        </span>
         </span>
         <button type='button' className='home-btn'>Contact Us</button>
       </div>
