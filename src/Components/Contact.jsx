@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
 
         <div className="footer-end">
-          <span>&copy; 2023 CARVILLA All Rights Reserved By Ridoy Mondol </span>
+          <span>&copy; {new Date().getFullYear()} CARVILLA All Rights Reserved By Md. Ahatashamul Islam Mondol </span>
         </div>
 
         </>
